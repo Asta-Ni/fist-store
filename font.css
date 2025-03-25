@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url(public/font/Montserrat-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "roadradio";
+    src: url(public/font/roadradio_bold.otf);
+    font-weight: normal;
+    font-style: normal;
+}

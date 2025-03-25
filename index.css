@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.search__element-search{
+    width: 562px;
+    height: 50px;
+}
+.search__element-img{
+    width: 16px;
+    height: 16px;
+}
+.city__element-text2{
+    font-weight: 700;
+    font-size: 15px;
+    font-family: Montserrat;
+    
+}
+.city__element-text1{
+    font-weight: 500;
+    font-size: 15px;
+    font-family: Montserrat;
+
+}
+.city__element-img{
+    width: 12px;
+    height: 15px;
+}
+ul{
+    list-style-type: none;
+}
+
+.list-nav__element{
+    font-weight: 500;
+    font-size: 15px;
+    font-family: Montserrat;
+
+
+    margin:0;
+    padding: 0;
+}
+
+.list-nav, .list-account, .list-navigation, .list-order{
+    margin: 0;
+    padding: 0;
+}
+.list-order{
+
+    font-family: RoadRadio;
+    font-weight: 900;
+}
+
+.list-account__log-text{
+    font-family: RoadRadio;
+    font-weight: 900;
+}
+.list-account__favorites-text{
+    font-family: RoadRadio;
+    font-weight: 900;
+}
+.list-account__basket-text{
+    font-family: Montserrat;
+    font-weight: 500;
+}
+.order-list__link-btn{
+    font-family: RoadRadio;
+    background-color: #F15E22;
+    color: white;
+    border: none;
+}
+
+.list-navigation{
+    font-weight: 900;
+    font-size: 16px;
+    font-family: RoadRadio;
+}
+.list-navigation__sales-img{
+    width: 22px;
+    height: 22px;
+}
+.list-navigation__catalog-link{
+    width: 201px;
+    background-color: #F15E22;
+    height: 46px;
+    margin: 0px;
+    padding-top: 10px;
+}
+.list-navigation__catalog-img{
+    width: 23px;
+    height: 23px;
+  
+    padding-top: 10px;
+}
+.list-navigation__red-fish-img{
+    width: 24px;
+    height: 24px;
+}
+.list-navigation__chrimp-img{
+    width: 16px;
+    height: 23px;
+}
+.list-navigation__crab-img{
+    width:23px;
+    height: 23px;
+}
+.list-navigation__oyster-img{
+    width: 28px;
+    height: 28px;
+}
+.list-navigation__fish-img{
+    width: 22px;
+    height: 22px;
+}

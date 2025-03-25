@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="font.css"/>
+    <title>Vite App</title>
+    
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container">
+        <div>
+          <div class="header__container-city city">
+            <span class="city__element-text1">Ваш город:</span>
+            <img class="city__element-img" src="./public/marker.svg"/>
+            <span class="city__element-text2">Москва</span>
+          </div>
+          <nav class="header__container-nav navigation">
+            <ul class="navigation__list list-nav">
+              <li class="list-nav__element navigation__element--shipping">
+                <a href="#" class="navigation__shipping-link">Доставка</a>
+              </li>
+          
+              <li class="list-nav__element list-nav__element--paying">
+                <a href="#" class="navigation__paying-link">Оплата</a>
+              </li>
+          
+              <li class="list-nav__element list-nav__element--recipes">
+                <a href="#" class="navigation__recipes-link">Рецепты</a>
+              </li>
+          
+              <li class="list-nav__element list-nav__element--grade">
+                <a href="#" class="list-nav__grade-link">Оценка на яндекс маркете</a>
+              </li>
+          
+              <li class="list-nav__element list-nav__element--warranty">
+                <a href="#" class="list-nav__warranty-link">Гарантия качества</a>
+              </li>
+              <li class="list-nav__element list-nav__element--contact">
+                <a href="#" class="list-nav__contact-link">Контакты</a>
+              </li>
+            </ul>
+          </nav>          
+          <div class="order">
+            <ul class="order__list list-order">
+              <li class="list-order__element list-order__element--number">
+                <img class="list-order__number-img" src="./public/phone.svg"/>
+                <span class="list-order__number-text">+7 495 979 51 89</span>
+              </li>
+              <li class="order-list__element order-list__element--link">
+                <a href="#" class="order-list__link-link">
+                  <button class="order-list__link-btn">
+                    <span class="order-list__link-text">Оставить заявку</span>
+                  </button>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+
+        </div>
+        <div>
+          <div class="header__container-logo logo">
+            <img class="logo__element-img-plate" src="./public/plate.svg"/>
+            <a href="#" class="logo__element-link">
+              <img src="./public/logo_text.svg" class="logo__element-img-text"/>
+            </a>
+            <span class="logo__element-text">Продажа свежих морепродуктов с доставкой по Москве и МО</span>
+          </div>
+          <div class="header__container-search search">
+            <input placeholder="ПОИСК ПО ТОВАРАМ, РЕЦЕПТАМ И СТАТЬЯМ" type="text" class="search__element-search"/>
+            <img class="search__element-img" src="./public/search.svg">
+          </div>
+          <div class="header__container-account account">
+            <ul class="account__list list-account">
+              <li class="list-account__element list-account__element--log">
+                <a class="list-account__log-link">
+                  <img class="list-account__log-img" src="./public/person.svg"/>
+                  <span class="list-account__log-text">ВОЙТИ</span>
+                </a>
+              </li>
+              <li class="list-account__element list-account__element--favorites">
+                <img class="list-account__favorites-img" src="./public/favorites.svg"/>
+                <span class="list-account__favorites-text">ИЗБРАННОЕ</span>
+              </li>
+              <li class="list-account__element list-account__element--basket">
+                <a class="list-account__basket-link">
+                  <img class="list-account__basket-img" src="./public/basket.svg"/>
+                  <span class="list-account__basket-text">Ваша корзина</span>
+                  <span class="list-account__basket-cost">2540</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <nav class="header__container-navigation navigation">
+            <ul class="navigation__list list-navigation">
+              <li class="list-navigation__element list-navigation__element--catalog">
+                <a href="#" class="list-navigation__catalog-link">
+                  <img class="list-navigation__catalog-img" src="./public/catalog.svg"/>
+                  <span class="list-navigation__catalog-text">КАТАЛОГ</span>
+                </a>
+              </li>
+              <li class="list-navigation__element list-navigation__element--sales">
+                <a href="#" class="list-navigation__sales-link">
+                  <img class="list-navigation__sales-img" src="./public/sales.svg"/>
+                  <span class="list-navigation__sales-text">АКЦИИ</span>
+                </a>
+              </li>
+              <li class="list-navigation__element list-navigation__element--red-fish">
+                <a href="#" class="list-navigation__red-fish-link">
+                  <img class="list-navigation__red-fish-img" src="./public/red-fish.svg"/>
+                  <span class="list-navigation__red-fish-text">КРАСНАЯ РЫБА</span>
+                </a>
+              </li>
+              <li class="list-navigation__element list-navigation__element--chrimp">
+                <a href="#" class="list-navigation__chrimp-link">
+                  <img src="./public/chrimp.svg" class="list-navigation__chrimp-img"/>
+                  <span class="list-navigation__chrimp-text">КРЕВЕТКИ</span>
+                </a>
+              </li>
+              <li class="list-navigation__element list-navigation__element--crab">
+                <a href="#" class="list-navigation__crab-link">
+                  <img src="./public/crab.svg" class="list-navigation__crab-img"/>
+                  <span class="list-navigation__crab-text">КРАБ</span>
+                </a>
+              </li>
+              <li class="list-navigation__element list-navigatio__element--oyster">
+                <a href="#" class="list-navigation__oyster-link">
+                  <img src="./public/oyster.svg" class="list-navigation__oyster-img"/>
+                  <span class="list-navigation__oyster-text">ДЕЛИКАТЕСЫ</span>
+                </a>
+              </li>
+              <li class="list-navigation__element list-navigaton__element--fish">
+                <a href="#" class="list-navigation__fish-link">
+                  <img src="./public/fish.svg" class="list-navigation__fish-img"/>
+                  <span class="list-navigation__fish-text">РЫБА</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
